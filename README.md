@@ -25,7 +25,7 @@ Ansible:
 
 `ansible all -i hosts -m ping` - команда для проверки доступности удаленного хоста ключ -i путь до файла hosts.
 
-`ansible-playbook -i hosts playbook-ldap.yml` - команда для запуска плейбука
+`ansible-playbook -i hosts playbook.yml --ask-become-pass` - команда для запуска плейбука
 
 
 - <b>На данном скриншоте показано что все комады отрабатывают без ошибок<b> 
