@@ -1,0 +1,11 @@
+ubuntu_1 ansible_host=127.0.0.1 ansible_port=20022 ansible_user=test
+ubuntu_2 ansible_host=127.0.0.1 ansible_port=20122 ansible_user=test
+ubuntu_3 ansible_host=127.0.0.1 ansible_port=20222 ansible_user=test
+#адрес удаленных хостов на которых будет производится автоматизированная настройка
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3 
+# Этот параметр гарантирует,
+# что удаленный сервер использует /usr/bin/python3
+# исполняемый файл Python 3 вместо /usr/bin/python(Python 2.7), которого нет в последних версиях Ubuntu.
+# напонимаю что последняя lts версия ubuntu 22.04

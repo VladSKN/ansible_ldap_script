@@ -1,0 +1,5 @@
+- hosts: all
+  become: true
+  tasks:
+    - name: main
+      ansible.builtin.include: "tasks/main.yml"

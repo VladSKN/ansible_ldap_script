@@ -31,4 +31,3 @@ Ansible:
 - <b>На данном скриншоте показано что все комады отрабатывают без ошибок<b> 
   
   ![](screenshots/1.png)
-# ansible_ldap_script
